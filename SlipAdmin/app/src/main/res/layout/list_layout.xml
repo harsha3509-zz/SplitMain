@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:textColor="#89090909"
+        android:layout_width="184dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="TextViewName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRating"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:textColor="#89090909"
+        android:id="@+id/textViewRating"
+        android:layout_width="178dp"
+        android:layout_height="36dp"
+        android:text="@string/textviewrating"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:textColor="#89090909"
+        android:id="@+id/email"
+        android:layout_width="184dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="184dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
